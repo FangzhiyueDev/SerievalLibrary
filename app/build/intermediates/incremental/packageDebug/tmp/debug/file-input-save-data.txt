@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Oct 05 12:23:44 CST 2018
+#Fri Oct 05 20:37:10 CST 2018
 1.base=/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/transforms/dexMerger/debug/28
 2.path=classes.dex
 0.baseType=DIRECTORY

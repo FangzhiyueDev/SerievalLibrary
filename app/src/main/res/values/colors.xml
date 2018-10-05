@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="toolbarColor">#dcad00</color>
+    <color name="retrievalButton">#ff6303</color>
+    <color name="gray">#ccc</color>
 </resources>

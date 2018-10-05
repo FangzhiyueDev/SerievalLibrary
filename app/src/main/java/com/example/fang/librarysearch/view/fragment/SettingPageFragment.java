@@ -37,5 +37,6 @@ public class SettingPageFragment extends Fragment {
      */
     private void initComponent(ViewGroup view) {
 
+
     }
 }

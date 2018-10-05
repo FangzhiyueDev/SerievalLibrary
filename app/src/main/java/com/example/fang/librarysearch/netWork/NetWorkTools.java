@@ -1,11 +1,6 @@
 package com.example.fang.librarysearch.netWork;
 
-import android.content.Context;
-import android.content.res.AssetManager;
 import android.util.Log;
-import android.webkit.WebView;
-
-
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -67,7 +62,6 @@ public class NetWorkTools {
 //    }
 
 
-
     /**
      * 发送一条Http请求信息
      *
@@ -76,9 +70,9 @@ public class NetWorkTools {
      */
     public static void sendHttpRequest(String url, okhttp3.Callback callback) {
         OkHttpClient client = new OkHttpClient();
-        Request request = new Request.Builder().url(url).build();
+        Request request = new Request.Builder().url(url).get().build();
         client.newCall(request).enqueue(callback);
-        Log.d("test", "sendHttpRequest: 执行请求");
+        Log.d("test", "sendHttpRequest: 执行请求" + url);
     }
 
 

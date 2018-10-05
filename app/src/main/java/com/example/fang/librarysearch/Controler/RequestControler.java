@@ -1,7 +1,5 @@
 package com.example.fang.librarysearch.Controler;
 
-import android.content.Context;
-
 import com.example.fang.librarysearch.mode.Request;
 import com.example.fang.librarysearch.netWork.NetWorkTools;
 
@@ -12,7 +10,7 @@ public class RequestControler {
 
     /**
      * 实现的是第一次的检索，下面是请求的头
-     * http://192.168.30.248:81/NTRdrBookRetr.aspx?strType=text&strKeyValue=简爱&strpageNum=10&tabletype=*&strSortType=&strSort=asc
+     * http://192.168.30.248:81/NTRdrBookRetr.aspx?strType=text&strKeyValue=android&strSortType=&strpageNum=10&strSort=asc
      *
      * @param request
      * @param callback
@@ -25,6 +23,7 @@ public class RequestControler {
                 "&tabletype=" + request.getStrTableType() +
                 "&strSortType=" + request.getStrSortType() +
                 "&strSort=" + request.getStrSort();
+
         NetWorkTools.sendHttpRequest(url, callback);
     }
 

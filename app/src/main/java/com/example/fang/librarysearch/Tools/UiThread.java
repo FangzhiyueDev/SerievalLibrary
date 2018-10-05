@@ -1,7 +1,5 @@
 package com.example.fang.librarysearch.Tools;
 
-import android.content.Context;
-import android.os.Binder;
 import android.os.Handler;
 import android.os.Looper;
 
