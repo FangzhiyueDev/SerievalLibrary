@@ -29,10 +29,15 @@ public class StandardSet {
     /**
      * 用于检索书名的输入文字
      */
-    public static String retrievalBookName="retrievalBookName";
+    public static String retrievalBookName = "retrievalBookName";
     /**
      * 再次进行检索的html数据，这个html的数据是由我们进行更改检索结果的数据页而进行的查询
      * 同样的实现的也是get请求
      */
-    public static String reretrievalHtmlData="reretrievalHtmlData.html";
+    public static String reretrievalHtmlData = "reretrievalHtmlData.html";
+    /**
+     * 首选项的名称
+     */
+    public static String sharedPreferencesName = "firstSelection";
+    public static String historyName = "historyName";
 }

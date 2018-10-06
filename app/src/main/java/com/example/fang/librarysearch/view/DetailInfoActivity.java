@@ -234,10 +234,7 @@ public class DetailInfoActivity extends AppCompatActivity {
                         needFlushCount(numbers);
                         labAllCount.setText("检索到数据" + numbers + "条");
                         List<BookInfo> list = retrievalResponse.getBookInfo();
-//                        Log.d("test", "结果集的大小" + list.size());
-//                        for (int i = 0; i < list.size(); i++) {
-//                            Log.d("test", list.get(i).getBookInfo());
-//                        }
+
                         myBookInfoAdapter.addBookInfos(list);
                     }
                 });

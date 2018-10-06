@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.1.2"
-    timestamp="1538806658272"
+    timestamp="1538820832354"
     token="315533323691529411"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -29,58 +29,43 @@
 
     <build
         build-mode="FULL"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1538790330641"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1538811266636"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
+            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
+            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1538790768644"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
@@ -89,38 +74,17 @@
     <build
         build-mode="COLD"
         ir-eligibility="CLASS_ADDED"
-        timestamp="1538800492260"
+        timestamp="1538817245298"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="STATIC_INITIALIZER_CHANGE"
-        timestamp="1538804679352"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="METHOD_DELETED"
-        timestamp="1538805651271"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1538806565574"
+        timestamp="1538820758099"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
         <artifact
             location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
@@ -128,10 +92,16 @@
             location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -139,7 +109,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1538806658272"
+        timestamp="1538820832354"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
