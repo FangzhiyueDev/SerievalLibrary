@@ -21,4 +21,18 @@ public class StandardSet {
 
 
     public static String saveHtmlName = "index.html";
+    /**
+     * 实现的是检索的全部数据的一个详细信息的界面跳转的附加数据的key
+     */
+    public static String bookInfoDetailDump = "bookInfo";
+
+    /**
+     * 用于检索书名的输入文字
+     */
+    public static String retrievalBookName="retrievalBookName";
+    /**
+     * 再次进行检索的html数据，这个html的数据是由我们进行更改检索结果的数据页而进行的查询
+     * 同样的实现的也是get请求
+     */
+    public static String reretrievalHtmlData="reretrievalHtmlData.html";
 }

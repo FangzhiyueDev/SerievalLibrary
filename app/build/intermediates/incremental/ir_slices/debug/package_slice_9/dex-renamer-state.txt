@@ -1,4 +1,4 @@
-#Fri Oct 05 20:49:39 CST 2018
-base.0=/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/transforms/dexMerger/debug/26
+#Sat Oct 06 14:16:08 CST 2018
+base.0=/home/fang/AndroidStudioProjects/librarySearch/app/build/intermediates/transforms/dexMerger/debug/60
 path.0=classes.dex
 renamed.0=classes.dex

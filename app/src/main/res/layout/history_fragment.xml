@@ -4,10 +4,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:textSize="30dp"
+    <ListView
+        android:id="@+id/queryHistory"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="this is history" />
+        android:layout_margin="10dp"
+        android:divider="@android:color/transparent">
+
+    </ListView>
+
 
 </LinearLayout>

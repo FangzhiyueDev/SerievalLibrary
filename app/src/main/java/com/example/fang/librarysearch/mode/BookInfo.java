@@ -1,10 +1,12 @@
 package com.example.fang.librarysearch.mode;
 
 
+import java.io.Serializable;
+
 /**
  * [{书名,作者，出版社，出版时间，ISBN，索书号，分类号，页数，价格，复本数，在馆数，累借天数，累借次数，描述}]
  */
-public class BookInfo {
+public class BookInfo implements Serializable {
 
     private String bookName;
     private String author;
@@ -157,9 +159,10 @@ public class BookInfo {
 
     /**
      * bookInfo存放的是所有的关键信息
-     *
+     * <p>
      * 解析书籍的各种信息
      * {“作者”,"出版社","出版时间","ISBN","索书号","分页号","页数","价格","副本数","在馆数","累借    * 天数","累借次数"}
+     *
      * @param bookInfo
      */
 

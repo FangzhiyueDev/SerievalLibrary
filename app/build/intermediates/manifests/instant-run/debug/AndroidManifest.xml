@@ -30,6 +30,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.fang.librarysearch.view.DetailInfoActivity" />
+        <activity android:name="com.example.fang.librarysearch.view.BookInfoDetailActivity" />
 
         <meta-data
             android:name="android.support.VERSION"

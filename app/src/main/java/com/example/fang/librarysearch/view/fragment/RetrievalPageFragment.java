@@ -1,5 +1,6 @@
 package com.example.fang.librarysearch.view.fragment;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -14,6 +15,7 @@ import android.widget.Toast;
 
 import com.example.fang.librarysearch.Controler.RequestControler;
 import com.example.fang.librarysearch.R;
+import com.example.fang.librarysearch.Tools.FileOprationTools;
 import com.example.fang.librarysearch.mode.Request;
 import com.example.fang.librarysearch.standard.StandardSet;
 import com.example.fang.librarysearch.view.DetailInfoActivity;
@@ -95,9 +97,10 @@ public class RetrievalPageFragment extends Fragment {
 
                             Intent intent = new Intent(getContext(), DetailInfoActivity.class);
                             // intent.putExtra(StandardSet.responseDataDumpExtraName, data);
+                            intent.putExtra(StandardSet.retrievalBookName, text);
                             startActivity(intent);
 
-                            writeFile(data);
+                            FileOprationTools.writeFile(getContext(), data, StandardSet.saveHtmlName);
 
                         }
                     });
@@ -110,44 +113,5 @@ public class RetrievalPageFragment extends Fragment {
 
     }
 
-    /**
-     * 将数据写入文件
-     *
-     * @param data
-     */
-    private void writeFile(String data) {
-        File file = getActivity().getCacheDir();
-        File htmlFile = new File(file, StandardSet.saveHtmlName);
 
-        ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(data.getBytes());
-        InputStreamReader inputStreamReader = new InputStreamReader(byteArrayInputStream);
-        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-        BufferedWriter bufferedWriter = null;
-        try {
-            htmlFile.createNewFile();
-            char[] chars = new char[1024];
-            int len;
-            bufferedWriter = new BufferedWriter(new FileWriter(htmlFile));
-            while ((len = bufferedReader.read(chars)) != -1) {
-                bufferedWriter.write(chars, 0, len);
-            }
-
-            bufferedWriter.flush();
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-
-            try {
-                bufferedReader.close();
-                bufferedWriter.close();
-                inputStreamReader.close();
-                byteArrayInputStream.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-
-
-    }
 }

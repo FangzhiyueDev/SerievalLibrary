@@ -20,6 +20,8 @@
 
         <activity android:name=".view.DetailInfoActivity"></activity>
 
+        <activity android:name=".view.BookInfoDetailActivity"></activity>
+
     </application>
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>

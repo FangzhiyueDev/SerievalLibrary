@@ -18,8 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:text="检索结果120条" />
+            android:layout_marginTop="10dp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -28,9 +27,11 @@
             android:background="@color/toolbarColor" />
 
         <ListView
-            android:id="@+id/retrievalLIstView"
+            android:id="@+id/retrievalListView"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"></ListView>
 
         <ImageButton
@@ -40,7 +41,7 @@
             android:layout_marginBottom="10dp"
             android:background="@android:color/transparent"
             android:src="@drawable/flush"
-            android:tint="@android:color/black" />
+            android:tint="@color/retrievalButton" />
     </LinearLayout>
 
 
