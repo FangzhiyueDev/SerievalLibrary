@@ -21,6 +21,7 @@
 
 
     <TextView
+        android:id="@+id/reset"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginLeft="10dp"
@@ -37,6 +38,7 @@
         android:background="@color/toolbarColor" />
 
     <TextView
+        android:id="@+id/clearCache"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginLeft="10dp"
